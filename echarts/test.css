@@ -1,0 +1,211 @@
+/* 全局元素 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 信息表格背景及块元素 */
+#infobackground{
+    background-image:url(".\\信息图表.png");
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    background-size: cover;
+    left:2%;
+    top:1%;
+    width: 720px;
+    height: 380px;
+    z-index: 1;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* 信息表格 */
+table{
+    font-size: 23px;
+    color: white;
+}
+td{
+    padding: 12px 12px;
+}
+
+/* 各物质浓度变化折线图 */
+#alllinebackground{
+    background-image:url(".\\信息图表2.png");
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    background-size: cover;
+    left:2%;
+    top:1%;
+    width: 750px;
+    height: 380px;
+    z-index: 1;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+
+/* 导入需校准数据按钮 */
+#btnUpload{
+    background-image: url(".\\按钮.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    font-size: 20px;
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 280px;
+}
+
+#btnUpload:hover{
+    background-image: url(".\\按钮2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    font-size: 20px;
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 280px;
+}
+
+#btnUpload:hover #Upinfo{
+    opacity: 0%;
+}
+
+#Upinfo{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 70px 30px 40px 30px;
+}
+
+
+/* 导入参照数据按钮 */
+#canzhao{
+    background-image: url(".\\按钮.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+#canzhao:hover{
+    background-image: url(".\\按钮2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    font-size: 20px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+#canzhao:hover #canzhao{
+    display: none;
+}
+
+#canzhao:hover #czinfo{
+    opacity: 0%;
+}
+
+#czinfo{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 70px 30px 40px 30px;
+}
+
+/* 校正数据按钮 */
+#jiaozheng{
+    background-image: url(".\\按钮.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#jiaozheng:hover{
+    background-image: url(".\\按钮2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    font-size: 20px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+#jiaozheng:hover #jiaozheng{
+    display: none;
+}
+
+#jiaozheng:hover #jzinfo{
+    opacity: 0%;
+}
+
+#jzinfo{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 70px 30px 40px 30px;
+}
+
+
+/* 导出数据按钮 */
+#daochu{
+    background-image: url(".\\按钮.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#daochu:hover{
+    background-image: url(".\\按钮2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    font-size: 20px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+#daochu:hover #daochu{
+    display: none;
+}
+
+#daochu:hover #dcinfo{
+    opacity: 0%;
+}
+
+#dcinfo{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 70px 30px 40px 30px;
+}
